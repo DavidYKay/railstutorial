@@ -13,13 +13,13 @@ group :development do
 end
 
 group :test do
-  #gem 'rspec', '2.3.0'
-  #gem 'webrat', '0.7.1'
-  #gem 'spork', '0.8.4'
+  gem 'rspec', '2.3.0'
+  gem 'webrat', '0.7.1'
+  gem 'spork', '0.8.4'
 
-  gem 'rspec' 
-  gem 'webrat'
-  gem 'spork' 
+  #gem 'rspec' 
+  #gem 'webrat'
+  #gem 'spork' 
 
   gem 'rb-fsevent'
   gem 'guard-spork'
