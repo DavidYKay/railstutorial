@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe PagesController do
+  render_views
 
   before(:each) do
     @base_title = "Ruby on Rails Tutorial Sample App"
@@ -18,7 +19,6 @@ describe PagesController do
                         #:content => @base_title " | Home")
                         :content => "Ruby on Rails Tutorial Sample App | Home")
     end
-
   end
 
   describe "GET 'contact'" do
